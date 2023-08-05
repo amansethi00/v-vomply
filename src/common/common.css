@@ -1,0 +1,70 @@
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.shrink-2 {
+  flex-shrink: 2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h-2 {
+  height: 22px;
+}
+
+.w-50 {
+  width: 80px;
+}
+.w-100 {
+  width: 160px;
+}
+.w-200px {
+  width: 160px;
+}
+
+.node-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  user-select: none;
+}
+
+.highlight {
+  color: blue;
+}
+
+.btn-transparent {
+  background: transparent;
+  border: none;
+}
+
+button:hover {
+  color: blue;
+}
